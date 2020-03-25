@@ -1,0 +1,6 @@
+git log --oneline --decorate --graph
+git checkout master 
+git checkout -b newBranch 
+git merge new-feature
+git branch -f master HEAD~3         up 3 levels
+
